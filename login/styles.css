@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url("Image/th.jpeg");
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-container {
+  background-color: rgba(251, 253, 254, 0);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.card{
+  background-color: #000;
+  width:55vh;
+  padding: 30px;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  font-size: large;
+  width: 97%;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.remember-forgot {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  margin-left: auto;
+}
+a{
+  color: #fff;
+}
+.terms {
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.login-option {
+  text-align: center;
+  margin-top: 20px; /* Adjust this value as needed */
+}
